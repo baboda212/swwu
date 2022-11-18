@@ -9,5 +9,6 @@
         minSlides: 3,
         maxSlides: 3,
         speed: 800,
+        touchEnabled : false,
             });
         });
