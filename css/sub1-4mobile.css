@@ -1,85 +1,85 @@
-body{
-    font-family: "Alegreya", "Nanum Gothic";
+body {
+  font-family: "Alegreya", "Nanum Gothic";
 }
-.wrap{
-    position: relative;
-    min-height: 100%;
-    padding-bottom: 150px;
-  }
-  footer{
-    position: absolute;
-    bottom: 0;
-  }
-  #sub-title{
-    width: 100%;
-    height: 250px;
-    background-image: url(../images/sub1-4/subtitle-location.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-size: cover; */
+.wrap {
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 150px;
 }
-#sub-title .container{
+footer {
+  position: absolute;
+  bottom: 0;
+}
+#sub-title {
+  width: 100%;
+  height: 250px;
+  background-image: url(../images/sub1-4/subtitle-location.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-size: cover; */
+}
+#sub-title .container {
   font-size: 26px;
   font-weight: 700;
   color: #fff;
   text-align: center;
-  
 }
-  .location-info .container{
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    margin-bottom: 30px;
-  }
-.location-info .container .mappic{
-    width: 90%;
+.location-info .container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-bottom: 30px;
 }
-.location-info .container .address{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: 30px;
-    margin-bottom: 30px;
+.location-info .container .mappic {
+  width: 90%;
 }
-.location-info .container th, td{
-    padding: 5px;
-    padding-left: 1em;
+.location-info .container .address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-.location-info .container th{
-    text-align: left;
-    vertical-align: middle;
-    font-size: 1rem;
-    font-weight: 700;
+.location-info .container th,
+td {
+  padding: 5px;
+  padding-left: 1em;
 }
-.location-info .container th:nth-child(1){
-    vertical-align: text-top;
+.location-info .container th {
+  text-align: left;
+  vertical-align: middle;
+  font-size: 1rem;
+  font-weight: 700;
 }
-.location-info .container td{
-    font-size: 1rem;
-    line-height: 27px;
+.location-info .container th:nth-child(1) {
+  vertical-align: text-top;
 }
-#map .container{
-    margin-bottom: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.location-info .container td {
+  font-size: 1rem;
+  line-height: 27px;
 }
-.pcmap{
-    display: none;
+#map .container {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.address{
-    order: 1;
+.pcmap {
+  display: none;
 }
-.mappic{
-    order: 3;
+.address {
+  order: 1;
+}
+.mappic {
+  order: 3;
 }
 
- /* lnb */
- .lnb {
+/* lnb */
+.lnb {
   max-width: 767px;
   width: 100%;
   /* background: #ccc; */

@@ -447,6 +447,12 @@ footer {
     margin-top: 30px;
   }
 }
+
+@media (max-width: 767px) {
+  footer {
+    height: 200px;
+  }
+}
 /* ----------upbtn---------- */
 .upbtn {
   position: fixed;
