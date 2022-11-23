@@ -29,6 +29,9 @@
       integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
       crossorigin="anonymous"
     ></script>
+    <!-- aos 효과 -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- reset css -->
     <link rel="stylesheet" href="./css/reset.css" />
     <!-- 메인css -->
@@ -318,7 +321,7 @@
       </div>
 
       <!-- main-visual -->
-      <div class="main-visual">
+      <div data-aos="fade" data-aos-duration="500" data-aos-easing="ease-in-out" class="main-visual">
         <div class="mian-visual-text-box">
           <p>아름다운 비상이 시작됩니다.</p>
           <span>수원여자대학교 실용음악과</span>
@@ -666,6 +669,8 @@
     ></script>
     <!-- 자바스크립트 -->
     <script src="./js/main.js"></script>
-    
+    <script>
+      AOS.init(); //실행 준비 함수
+  </script>
   </body>
 </html>
